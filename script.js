@@ -13,6 +13,9 @@ async function short(){
     if(data.ok == true){
         shortURL.value = data.result.short_link2;
     }
+    else{
+        alert("Sorry cant shorten the link")
+    }
 
 }
 
